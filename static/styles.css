@@ -1,0 +1,9 @@
+input {
+  border: 1px solid #000
+  width: 200px;
+  padding: 20px;
+  font-size: 20px;
+}
+#important {
+    color: red;
+}

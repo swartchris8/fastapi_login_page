@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}Login Extends Base{% endblock %}
+{% block content %}
+<form method="POST" action="/auth/login" >
+  <h1> Please login </h1>
+    <label> Username </label>
+    <input class=input id="username" name="username" placeholder="username" type="text">
+    <label> Password </label>
+    <input class=input id="password" name="password" placeholder="password" type="password">
+    <button type="submit">
+      Login
+    </button>
+</form>
+{% endblock %}
